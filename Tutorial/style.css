@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+}
+.titulo__logo-primero{
+    float: left;
+    margin: 50px;
+}
+.titulo__logo-segundo{
+    float: right;
+    margin: 50px;
+}
+.ques__preg {
+    color: yellow;
+    padding: 10px;
+    font-weight: bold;
+}
+.ques__res {
+    color: lightblue;
+    padding: 10px;
+}
+body{
+    background-color: rgb(35, 33, 33);
+    color: whitesmoke;
+    animation-duration: 2s;
+    animation-name: animacion-principal;
+}
+@keyframes animacion-principal {
+    from {
+        margin-left: 100%;
+        margin-top: 100%;
+        width: 150%;
+      }
+      to {
+        margin-left: 0%;
+        margin-top: 0%;
+        width: 100%;
+      }
+}
+.Encabezado__texto{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+.formulario__fecha-texto{
+    color: yellow;
+    font-weight: bold;
+}
+.ques__boton{
+    width: 10%;
+    color: whitesmoke;
+}
+.boton__contac{
+    width: 10%;
+    color: whitesmoke;
+}
+.boton__contac::before{
+    content: "Contactos";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
+}
+.boton__contac:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 3%;
+    padding: 0px;
+}
+.ques__boton:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 3%;
+    padding: 0px;
+}
+.ques__boton-workshop{
+    width: 10%;
+    color: whitesmoke;
+}
+.ques__boton-workshop:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.ques__boton-workshop::before{
+    content: "WorkShop";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.ques__boton-tienda{
+    width: 10%;
+    color: whitesmoke;
+}
+.ques__boton-tienda::before{
+    content: "Tienda";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.ques__boton-tienda:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.titulo{
+    text-align: center;
+    margin: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+.subtit{
+    text-align: left;
+    color: yellow;
+    font-weight: bold;
+}
+.ques{
+    text-align: left;
+}
+.formulario{
+    text-align: center;
+}
+.pies{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+.pie-contac{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+.titulo__logo-primero{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+}
+.titulo__logo-segundo{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+}
+
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
+.pies__logo{
+    width: 10%;
+    border-radius: 25%;
+    border: 5px whitesmoke solid;
+}
+.pie-contac__logogithub{
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contact__logotwitter{
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__logodiscord{
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__logosteam{
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__link-github{
+    color: whitesmoke;
+}
+.pie-contac__link-github:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.pie-contac__link-github::before{
+    content: "GitHub";
+    color: gray;
+    border:4px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.pie-contac__link-discord{
+    color: whitesmoke;
+}
+.pie-contac__link-discord:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.pie-contac__link-discord::before{
+    content: "Discord";
+    color: gray;
+    border:4px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.pie-contac__link-twitter{
+    color: whitesmoke;
+}
+.pie-contac__link-twitter:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.pie-contac__link-twitter::before{
+    content: "Twitter";
+    color: gray;
+    border:4px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.pie-contac__link-steam{
+    color: whitesmoke;
+}
+.pie-contac__link-steam:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.pie-contac__link-steam::before{
+    content: "Steam";
+    color: gray;
+    border:4px solid whitesmoke;
+    width: 20px;
+    text-align: left;
+}
+.csgologofinal-foto{
+    width: 250px;
+    height: 450px;
+    margin: 25px;
+    border-radius: 25%;
+    border: 5px whitesmoke solid;
+}
